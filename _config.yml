@@ -1,2 +1,4 @@
 name: Joey Mays
 markdown: kramdown
+
+theme: jekyll-theme-slate
