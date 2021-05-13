@@ -1,10 +1,10 @@
 # name: Joey Mays
 markdown: kramdown
-#remote_theme: samarsault/plainwhite-jekyll
+remote_theme: samarsault/plainwhite-jekyll
 
 plainwhite:
   name: Joey Mays
   tagline: PhD Candidate
   date_format: "%b %-d, %Y"
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
