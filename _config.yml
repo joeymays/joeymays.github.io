@@ -1,3 +1,8 @@
-name: Joey Mays
+# name: Joey Mays
 markdown: kramdown
 remote_theme: samarsault/plainwhite-jekyll
+
+plainwhite:
+  name: Joey Mays
+  tagline: PhD Candidate
+  date_format: "%b %-d, %Y"
