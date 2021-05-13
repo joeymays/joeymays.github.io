@@ -1,6 +1,6 @@
 # name: Joey Mays
 markdown: kramdown
-remote_theme: samarsault/plainwhite-jekyll
+#remote_theme: samarsault/plainwhite-jekyll
 
 plainwhite:
   name: Joey Mays
