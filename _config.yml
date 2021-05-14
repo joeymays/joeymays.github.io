@@ -1,4 +1,6 @@
 remote_theme: samarsault/plainwhite-jekyll
+markdown: kramdown
+
 
 title: Joey Mays
 author: Joey Mays
@@ -20,7 +22,7 @@ plainwhite:
     NYU School of Medicine
 
     <a href="https://scholar.google.com/citations?user=SLTcJMQAAAAJ&hl=en">Google Scholar</a>
-    <a href="https://orcid.org/0000-0003-4903-938X">ORCID 0000-0003-4903-938X</a>
+    <a href="https://orcid.org/0000-0003-4903-938X">ORCID</a>
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: false # set to true to enable searchbar
@@ -63,6 +65,6 @@ plainwhite:
 # Build settings
 #theme: plainwhite
 
-#plugins:
-#  - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
 #  - jekyll-feed
