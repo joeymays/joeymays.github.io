@@ -15,7 +15,8 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Joey Mays
-  tagline: PhD Candidate, \nNYU School of Medicine
+  tagline: PhD Candidate,
+  NYU School of Medicine
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: false # set to true to enable searchbar
