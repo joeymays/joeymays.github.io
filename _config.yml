@@ -20,6 +20,7 @@ plainwhite:
     NYU School of Medicine
 
     <a href="https://scholar.google.com/citations?user=SLTcJMQAAAAJ&hl=en">Google Scholar</a>
+    <a href="https://orcid.org/0000-0003-4903-938X">ORCID 0000-0003-4903-938X</a>
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: false # set to true to enable searchbar
@@ -32,6 +33,7 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
+    email: josephcmays@gmail.com
     twitter: josephcmays
     github:  joeymays
     linkedIn: in/josephmays2
@@ -45,7 +47,6 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    #email: jekyll
 
     # Mastodon instances
     # mastodon:
