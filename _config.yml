@@ -18,6 +18,8 @@ plainwhite:
   tagline: |
     PhD Candidate,
     NYU School of Medicine
+
+    <a href="https://scholar.google.com/citations?user=SLTcJMQAAAAJ&hl=en">Google Scholar</a>
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: false # set to true to enable searchbar
