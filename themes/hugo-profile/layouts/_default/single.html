@@ -19,7 +19,7 @@
           <div class="title mb-5">
             <h1 class="text-center mb-4">{{ .Title }}</h1>
             <div class="text-center">
-              {{ .Params.author }} 
+              {{ .Params.author }}
               <small>|</small>
               {{ .Date.Format "Jan 2, 2006" }}
             </div>
@@ -58,7 +58,7 @@
           </aside>
           {{end}}
 
-          {{ if .Params.socialShare | default true }}
+          {{ if .Params.socialShare | default false }}
           <aside class="social">
             <h5>Social</h5>
             <div class="social-content">
