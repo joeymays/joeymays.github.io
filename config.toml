@@ -246,20 +246,24 @@ Extracurricular Activities
     image = "assets/bar-purple.png"
 
       [params.projects.items.featured]
-      name = "GitHub"
-      link = "https://https://github.com/joeymays/get-chromosomes"
+      name = "Launch App"
+      link = "https://joeymays.shinyapps.io/getChromosomes/"
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/joeymays/get-chromosomes"
 
       # [[params.projects.items.links]]
       # icon = "fa fa-envelope"
-      # url = "mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f"
+      # url = ""
       #
       # [[params.projects.items.links]]
       # icon = "fab fa-github"
-      # url = "https://github.com/gurusabarish/hugo-profile"
+      # url = ""
       #
       # [[params.projects.items.links]]
       # icon = "fab fa-twitter"
-      # url = "https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile"
+      # url = ""
 
     [[params.projects.items]]
     title = "NGS Pooling Calculator"
@@ -275,7 +279,7 @@ Extracurricular Activities
       url = "https://github.com/joeymays/ngs-pooling"
 
     [[params.projects.items]]
-    title = "quantIT Calculator"
+    title = "QuantIT Calculator"
     content = "R Shiny calculator for QuantIT dsDNA quanitification kits."
     image = "assets/bar-orange.png"
 
