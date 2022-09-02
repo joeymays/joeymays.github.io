@@ -242,7 +242,7 @@ Extracurricular Activities
     [[params.projects.items]]
     title = "Get Chromosomes"
     content = "R Shiny app for quick chromosome and cytoband annotation for genes."
-    image = ""
+    image = "assets/bar-purple.png"
 
       [params.projects.items.featured]
       name = "GitHub"
@@ -263,7 +263,7 @@ Extracurricular Activities
     [[params.projects.items]]
     title = "NGS Pooling Calculator"
     content = "R Shiny calculator for Illumina Next Gen Sequencing library pooling."
-    image = ""
+    image = "assets/bar-green.png"
 
       [params.projects.items.featured]
       name = "Launch App"
@@ -276,7 +276,7 @@ Extracurricular Activities
     [[params.projects.items]]
     title = "quantIT Calculator"
     content = "R Shiny calculator for QuantIT dsDNA quanitification kits."
-    image = ""
+    image = "assets/bar-orange.png"
 
       [params.projects.items.featured]
       name = "Launch App"
