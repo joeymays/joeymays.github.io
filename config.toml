@@ -13,8 +13,8 @@ unsafe = true
 [[Menus.main]]
 identifier = "blog"
 name = "Blog"
-title = "Blog posts"
-url = "/blog"
+title = "Blog Posts"
+url = "/posts"
 weight = 1
 
 # [[Menus.main]]
