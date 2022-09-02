@@ -266,12 +266,12 @@ Extracurricular Activities
     image = ""
 
       [params.projects.items.featured]
-      name = "GitHub"
-      link = "https://github.com/joeymays/ngs-pooling"
+      name = "Launch App"
+      link = "https://joeymays.shinyapps.io/ngs-pooling/"
 
-      # [[params.projects.items.links]]
-      # icon = "fab fa-github"
-      # url = "https://github.com/gurusabarish/converter"
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/joeymays/ngs-pooling"
 
     [[params.projects.items]]
     title = "quantIT Calculator"
