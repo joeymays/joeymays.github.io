@@ -38,7 +38,7 @@ useBootstrapCDN = false
   intro = "Hi, my name is"
   title = "Joey."
   subtitle = "I'm a PhD candidate at the NYU School of Medicine."
-  content = "I develop methods for detecting aneuploidy in cancer and create tools to make my labmates' lives easier."
+  content = "I develop methods for detecting aneuploidy in cells and create tools to make my labmates' lives easier."
   image = "/jmheadshot.png"
 
     [params.hero.button]
