@@ -1,0 +1,7 @@
+Website Colors
+
+orange: #FFA50A
+purple: #AF45D9
+green: #2DDDB6
+red: #FF6557
+blue: #009DDC
