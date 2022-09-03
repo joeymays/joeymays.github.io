@@ -42,6 +42,7 @@ useBootstrapCDN = false
   secondaryBackgroundColor = "" # not sure
   primaryColor = "#39393A" #name, banner name, icon borders
   secondaryColor = "" #card backgrounds
+  publicationURLColor = ""
 
   [params.color.darkmode]
   textColor = ""
@@ -50,6 +51,7 @@ useBootstrapCDN = false
   secondaryBackgroundColor = ""
   primaryColor = ""
   secondaryColor = ""
+  publicationURLColor = ""
 
 
   [params.hero]
@@ -189,7 +191,7 @@ I am currently working as a software developer at [example org.](https://example
     content = "**<u>Joseph C. Mays</u>**, Michael C. Kelly, ... Matthew W. Kelley, David C. Klein"
 
       [params.education.items.school]
-      name = "PLOS One: 10.1371/journal.pone.0205883"
+      name = 'PLOS One'
       url = "https://doi.org/10.1371/journal.pone.0205883"
 
       [params.education.items.featuredLink]
@@ -204,7 +206,7 @@ I am currently working as a software developer at [example org.](https://example
     content = "Likhitha Kolla, Michael C. Kelly, ... **<u>Joseph C. Mays</u>**, ... Matthew W. Kelley"
 
       [params.education.items.school]
-      name = "Nature Communications: 10.1038/s41467-020-16113-y"
+      name = "Nature Communications"
       url = "https://doi.org/10.1038/s41467-020-16113-y"
 
       [params.education.items.featuredLink]
@@ -219,7 +221,7 @@ I am currently working as a software developer at [example org.](https://example
     content = "Joy J. Bianchi, Xin Zhao, **<u>Joseph C. Mays</u>**, Teresa Davoli"
 
       [params.education.items.school]
-      name = "Current Opinion in Cell Biology: 10.1016/j.ceb.2020.01.005"
+      name = "Current Opinion in Cell Biology"
       url = "https://doi.org/10.1016/j.ceb.2020.01.005"
 
       [params.education.items.featuredLink]
@@ -234,7 +236,7 @@ I am currently working as a software developer at [example org.](https://example
     content = "Steven L. Coon, ... **<u>Joseph C. Mays</u>**, Michael C. Kelly, Matthew W. Kelley, ... David C. Klien"
 
         [params.education.items.school]
-        name = "Frontiers in Endocrinology: 10.3389/fendo.2019.00590"
+        name = "Frontiers in Endocrinology"
         url = "https://doi.org/10.3389/fendo.2019.00590"
 
         [params.education.items.featuredLink]

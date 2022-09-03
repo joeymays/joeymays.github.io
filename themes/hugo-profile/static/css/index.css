@@ -433,7 +433,7 @@ header .navbar {
 #publications .card .card-body > a h6 {
     display: inline-block;
     text-decoration: none;
-    color: var(--primary-color) !important;
+    color: var(--publication-url-color) !important;
 }
 
 #publications .card .card-body > a h6::after {
@@ -442,7 +442,7 @@ header .navbar {
     width: 0px;
     height: 2px;
     bottom: 0.37em;
-    background-color: var(--primary-color);
+    background-color: var(--publication-url-color);
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     opacity: 0.5;
 }
