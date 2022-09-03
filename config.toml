@@ -162,54 +162,67 @@ I am currently working as a software developer at [example org.](https://example
     content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   [params.education]
-  enable = false
+  enable = true
 
     [[params.education.items]]
-    title = "Master of Business Administration"
-    date = "2013 - 2015"
-    GPA = "3.8 out of 5.0"
-    content = """
-Extracurricular Activities
-  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique."""
+    title = "Single-cell RNA sequencing of the mammalian pineal gland identifies two pinealocyte subtypes and cell type-specific daily patterns of gene expression."
+    date = "Oct 2018"
+    # GPA = ""
+    content = "**<u>Joseph C. Mays</u>**, Michael C. Kelly, ... Matthew W. Kelley, David C. Klein"
 
       [params.education.items.school]
-      name = "University of California, Berkeley"
-      url = "https://example.org"
-
-    [[params.education.items]]
-    title = "Bachelor of Science in Computer Science"
-    date = "2009 - 2013"
-    GPA = "3.9 out of 5.0"
-    content = """
-I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-- [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-- Face mask detection using a single convolutional neural network.
-
-Extracurricular Activities
-  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique."""
-
-      [params.education.items.school]
-      name = "Massachusetts Institute of Technology"
-      url = "https://example.org"
+      name = "PLOS One: 10.1371/journal.pone.0205883"
+      url = "https://doi.org/10.1371/journal.pone.0205883"
 
       [params.education.items.featuredLink]
       enable = true
-      name = "My academic record"
+      name = "Codebook"
+      url = "https://github.com/joeymays/PinealGland_SingleCell"
+
+    [[params.education.items]]
+    title = "Characterization of the development of the mouse cochlear epithelium at the single cell level"
+    date = "Dec 2020"
+    # GPA = ""
+    content = "Likhitha Kolla, Michael C. Kelly, ... **<u>Joseph C. Mays</u>**, ... Matthew W. Kelley"
+
+      [params.education.items.school]
+      name = "Nature Communications: 10.1038/s41467-020-16113-y"
+      url = "https://doi.org/10.1038/s41467-020-16113-y"
+
+      [params.education.items.featuredLink]
+      enable = false
+      name = ""
       url = "https://example.com"
 
     [[params.education.items]]
-    title = "High School"
-    GPA = "4.2 out of 5.0"
+    title = "Not all cancers are created equal: Tissue specificity in cancer genes and pathways"
+    date = "April 2020"
+    # GPA = ""
+    content = "Joy J. Bianchi, Xin Zhao, **<u>Joseph C. Mays</u>**, Teresa Davoli"
 
       [params.education.items.school]
-      name = "Thomas Jefferson High School for Science and Technology."
-      url = "https://example.org"
+      name = "Current Opinion in Cell Biology: 10.1016/j.ceb.2020.01.005"
+      url = "https://doi.org/10.1016/j.ceb.2020.01.005"
 
       [params.education.items.featuredLink]
-      enable = true
+      enable = false
+      name = ""
       url = "https://example.com"
+
+    [[params.education.items]]
+    title = "Single Cell Sequencing of the Pineal Gland: The Next Chapter"
+    date = "Sept 2020"
+    # GPA = ""
+    content = "Steven L. Coon, ... **<u>Joseph C. Mays</u>**, Michael C. Kelly, Matthew W. Kelley, ... David C. Klien"
+
+        [params.education.items.school]
+        name = "Frontiers in Endocrinology: 10.3389/fendo.2019.00590"
+        url = "https://doi.org/10.3389/fendo.2019.00590"
+
+        [params.education.items.featuredLink]
+        enable = false
+        name = ""
+        url = ""
 
   [params.achievements]
   enable = false
