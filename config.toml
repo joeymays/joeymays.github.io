@@ -33,6 +33,24 @@ useBootstrapCDN = false
 
   [params.theme]
   disableThemeToggle = false
+  defaultTheme = "dark"
+
+  [params.color]
+  textColor = "#39393A"
+  secondaryTextColor = ""
+  backgroundColor = ""
+  secondaryBackgroundColor = ""
+  primaryColor = "#39393A"
+  secondaryColor = ""
+
+  [params.color.darkmode]
+  textColor = ""
+  secondaryTextColor = ""
+  backgroundColor = ""
+  secondaryBackgroundColor = ""
+  primaryColor = ""
+  secondaryColor = ""
+
 
   [params.hero]
   enable = true
@@ -254,7 +272,7 @@ I am currently working as a software developer at [example org.](https://example
   enable = true
 
     [[params.projects.items]]
-    title = "Get Chromosomes"
+    title = "GetChromosomes"
     content = "R Shiny app for quick chromosome and cytoband annotation for genes."
     image = "assets/bar-purple.png"
 
