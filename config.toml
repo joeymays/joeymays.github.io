@@ -5,8 +5,8 @@ theme = "hugo-profile"
 pluralizeListTitles = "false"
 
 Paginate = 3
-#disqusShortname = "gurusabarish"
-#googleAnalytics = "G-DWJJVE27WD"
+#disqusShortname = ""
+googleAnalytics = "G-WHEWNK58B8"
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -36,12 +36,12 @@ useBootstrapCDN = false
   defaultTheme = "dark"
 
   [params.color]
-  textColor = "#39393A"
-  secondaryTextColor = ""
-  backgroundColor = ""
-  secondaryBackgroundColor = ""
-  primaryColor = "#39393A"
-  secondaryColor = ""
+  textColor = "#39393A" #all text, including hi my name and subtitles
+  secondaryTextColor = "#000000" #section headings
+  backgroundColor = "" #site background
+  secondaryBackgroundColor = "" # not sure
+  primaryColor = "#39393A" #name, banner name, icon borders
+  secondaryColor = "" #card backgrounds
 
   [params.color.darkmode]
   textColor = ""
