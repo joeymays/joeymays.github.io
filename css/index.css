@@ -64,7 +64,7 @@ header .navbar {
 .tooltip-inner {
     line-height: 1rem;
 }
-.tooltip .tooltip-arrow { 
+.tooltip .tooltip-arrow {
     visibility: hidden !important;
 }
 
@@ -291,18 +291,18 @@ header .navbar {
 
 #experience .nav-item .nav-link {
     color: var(--text-color) !important;
-    border-bottom: 2px solid transparent; 
+    border-bottom: 2px solid transparent;
     border-radius: 0%;
     transition: none;
 }
 
 #experience .nav-item .nav-link.active {
     color: var(--text-color) !important;
-    border-bottom: 2px solid var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color);
     opacity: 0.8;
 }
 
-#experience .nav-item .nav-link.active:hover { 
+#experience .nav-item .nav-link.active:hover {
     transition: none !important;
 }
 
@@ -377,13 +377,13 @@ header .navbar {
     opacity: 0.7;
 }
 
-/* Education */
+/* publications */
 
-#education .container > h3 {
+#publications .container > h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#education .row .index {
+#publications .row .index {
     opacity: 0.8;
     padding: 13px 20px;
     line-height: 0%;
@@ -395,11 +395,11 @@ header .navbar {
     font-weight: bold;
 }
 
-#education .card * {
+#publications .card * {
     background-color: var(--secondary-color) !important;
 }
 
-#education .card {
+#publications .card {
     border-radius: 1.5rem;
     box-shadow: 0px 8px 56px rgb(15 80 100 / 16%);
     border: 2px solid var(--text-secondary-color) !important;
@@ -407,36 +407,36 @@ header .navbar {
     transition: transform 0.2s;
 }
 
-#education .card .card-body {
+#publications .card .card-body {
     border-radius: 1.5rem;
     padding: 2rem;
 }
 
 @media all and (max-width:768px) {
-    #education .card .card-body {
+    #publications .card .card-body {
         padding: 2rem 1rem;
     }
 }
 
-#education .card:hover {
+#publications .card:hover {
     transition: 0.3s;
     box-shadow: 0 4px 11px rgb(15 80 100 / 16%);
     border: 2px solid var(--primary-color) !important;
 }
 
-#education .card .card-body .education-content a {
+#publications .card .card-body .publications-content a {
     color: var(--primary-color) !important;
     text-decoration: none;
     opacity: 0.9;
 }
 
-#education .card .card-body > a h6 {
+#publications .card .card-body > a h6 {
     display: inline-block;
     text-decoration: none;
     color: var(--primary-color) !important;
 }
 
-#education .card .card-body > a h6::after {
+#publications .card .card-body > a h6::after {
     content: "";
     display: block;
     width: 0px;
@@ -447,11 +447,11 @@ header .navbar {
     opacity: 0.5;
 }
 
-#education .card .card-body > a h6:hover::after, #education .card .card-body > a h6:focus::after, #education .card .card-body > a h6:active::after {
+#publications .card .card-body > a h6:hover::after, #publications .card .card-body > a h6:focus::after, #publications .card .card-body > a h6:active::after {
     width: 100%;
 }
 
-#education .card .card-body a.btn {
+#publications .card .card-body a.btn {
     opacity: 0.9;
     border: 1px solid var(--primary-color) !important;
     color: var(--text-color) !important;
@@ -460,7 +460,7 @@ header .navbar {
     transition: none;
 }
 
-#education .card .card-body a.btn:hover {
+#publications .card .card-body a.btn:hover {
     opacity: 0.8;
 }
 
