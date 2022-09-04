@@ -68,7 +68,7 @@ useBootstrapCDN = false
     url = "/Joseph_Mays_CV_Fall2022.pdf"
     download = false
 
-[[params.hero.socialLinks.fontAwesomeIcons]]
+[[params.hero.socialLinks.email]]
 icon = "fa fa-envelope-open"
 url = "mailto:josephcmays@gmail.com"
 
