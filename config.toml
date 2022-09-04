@@ -51,7 +51,7 @@ useBootstrapCDN = false
   secondaryBackgroundColor = ""
   primaryColor = ""
   secondaryColor = ""
-  publicationURLColor = ""
+  publicationURLColor = "#FFA50A"
 
 
   [params.hero]
