@@ -21,6 +21,10 @@
 </script>
 {{- end }}
 
+<head>
+  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+</head>
 
 <!-- Navbar -->
 <header>
@@ -59,7 +63,7 @@
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#experience"
                             aria-label="experience">Experience</a>
                     </li>
-                    {{ end }}                
+                    {{ end }}
 
                     {{ if and (.Site.Params.projects.enable | default false) (not (.Site.Params.navbar.menus.disableEducation | default false)) }}
                     <li class="nav-item navbar-text">
