@@ -23,9 +23,10 @@
                     {{ if or (.links) (.featured) }}
                     <div class="card-footer py-3">
                         {{ range .links }}
-                        <span class="m-1 mx-2">
-                            <a href="{{ .url }}" target="_blank">
-                                <i class="{{ .icon }}"></i>
+                        <span class="float-start">
+                            <a class="btn btn-sm" href="{{ .url }}" target="_blank">
+                                {{ .name }}
+                                <i class="fas fa-external-link-alt"></i>
                             </a>
                         </span>
                         {{ end }}

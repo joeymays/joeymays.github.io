@@ -62,3 +62,13 @@
 #projects .float-end .btn:focus {
     box-shadow: none !important;
 }
+
+#projects .float-start .btn {
+    transition: none;
+    border-radius: .5rem !important;
+    border-color: var(--primary-color) !important;
+}
+
+#projects .float-start .btn:focus {
+    box-shadow: none !important;
+}

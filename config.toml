@@ -285,7 +285,8 @@ I am currently working as a software developer at [example org.](https://example
       link = "https://joeymays.shinyapps.io/getChromosomes/"
 
       [[params.projects.items.links]]
-      icon = "fab fa-github"
+      # icon = "fab fa-github"
+      name = "GitHub"
       url = "https://github.com/joeymays/get-chromosomes"
 
       # [[params.projects.items.links]]
@@ -310,7 +311,8 @@ I am currently working as a software developer at [example org.](https://example
       link = "https://joeymays.shinyapps.io/ngs-pooling/"
 
       [[params.projects.items.links]]
-      icon = "fab fa-github"
+      # icon = "fab fa-github"
+      name = "GitHub"
       url = "https://github.com/joeymays/ngs-pooling"
 
     [[params.projects.items]]
@@ -323,11 +325,11 @@ I am currently working as a software developer at [example org.](https://example
       link = "https://joeymays.shinyapps.io/quantitcalculator"
 
       [[params.projects.items.links]]
-      icon = "fab fa-github"
+      name = "GitHub"
       url = "https://github.com/joeymays/quantIT-calculator"
 
   [params.contact]
-  enable = true
+  enable = false
   content = "My inbox is always open."
   email = "josephcmays@gmail.com"
   btnName = "Email Me"
