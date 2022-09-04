@@ -69,6 +69,10 @@ useBootstrapCDN = false
     download = false
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fa fa-envelope-open"
+url = "mailto:josephcmays@gmail.com"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
 icon = "fab fa-github"
 url = "https://github.com/joeymays"
 
@@ -84,9 +88,7 @@ url = "https://twitter.com/josephcmays"
 icon = "/assets/ORCID_iD.png"
 url = "https://orcid.org/0000-0003-4903-938X"
 
-[[params.hero.socialLinks.customIcons]]
-icon = "/assets/128px-Google_Scholar_logo.png"
-url = "https://scholar.google.com/citations?user=SLTcJMQAAAAJ&hl=en"
+
 
 
 
@@ -196,7 +198,7 @@ I am currently working as a software developer at [example org.](https://example
 
       [params.education.items.featuredLink]
       enable = true
-      name = "Codebook"
+      name = "Github Codebook"
       url = "https://github.com/joeymays/PinealGland_SingleCell"
 
     [[params.education.items]]
