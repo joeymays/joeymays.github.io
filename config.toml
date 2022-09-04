@@ -42,7 +42,7 @@ useBootstrapCDN = false
   secondaryBackgroundColor = "" # not sure
   primaryColor = "#39393A" #name, banner name, icon borders
   secondaryColor = "" #card backgrounds
-  publicationURLColor = ""
+  publicationURLColor = "#009DDC"
 
   [params.color.darkmode]
   textColor = ""
