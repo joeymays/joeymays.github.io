@@ -202,6 +202,21 @@ I am currently working as a software developer at [example org.](https://example
       url = "https://github.com/joeymays/PinealGland_SingleCell"
 
     [[params.education.items]]
+    title = "Proteogenomic analysis of cancer aneuploidy and normal tissues reveals divergent modes of gene regulation across cellular pathways"
+    date = "Sept 2020"
+    # GPA = ""
+    content = "Pan Cheng, Xin Zhao, ... **<u>Joseph C. Mays</u>**, ... Teresa Davoli"
+
+      [params.education.items.school]
+      name = "eLife"
+      url = "https://doi.org/10.7554/eLife.75227"
+
+      [params.education.items.featuredLink]
+      enable = false
+      name = ""
+      url = "https://example.com"
+    
+    [[params.education.items]]
     title = "Characterization of the development of the mouse cochlear epithelium at the single cell level"
     date = "Dec 2020"
     # GPA = ""
