@@ -196,6 +196,9 @@ I am currently working as a software developer at [example org.](https://example
       name = 'PLOS One'
       url = "https://doi.org/10.1371/journal.pone.0205883"
 
+      [params.education.items.pubmed]
+      url = "https://pubmed.ncbi.nlm.nih.gov/30347410/"
+
       [params.education.items.featuredLink]
       enable = true
       name = "Github Codebook"
@@ -226,6 +229,9 @@ I am currently working as a software developer at [example org.](https://example
       name = "Nature Communications"
       url = "https://doi.org/10.1038/s41467-020-16113-y"
 
+      [params.education.items.pubmed]
+      url = "https://pubmed.ncbi.nlm.nih.gov/32404924/"
+
       [params.education.items.featuredLink]
       enable = false
       name = ""
@@ -241,6 +247,9 @@ I am currently working as a software developer at [example org.](https://example
       name = "Current Opinion in Cell Biology"
       url = "https://doi.org/10.1016/j.ceb.2020.01.005"
 
+      [params.education.items.pubmed]
+      url = "https://pubmed.ncbi.nlm.nih.gov/32092639/"
+
       [params.education.items.featuredLink]
       enable = false
       name = ""
@@ -255,6 +264,9 @@ I am currently working as a software developer at [example org.](https://example
         [params.education.items.school]
         name = "Frontiers in Endocrinology"
         url = "https://doi.org/10.3389/fendo.2019.00590"
+
+        [params.education.items.pubmed]
+        url = "https://pubmed.ncbi.nlm.nih.gov/31616371/"
 
         [params.education.items.featuredLink]
         enable = false

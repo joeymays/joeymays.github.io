@@ -38,7 +38,7 @@
                                 </div>
 
                                 {{ if .school.url }}
-                                <a href="{{ .school.url }}" target="_blank">
+                                <a style="text-decoration:none;" href="{{ .school.url }}" target="_blank">
                                     <h6>
                                       {{ .school.name }}
                                       <i class="fas fa-external-link-alt"></i>
@@ -46,6 +46,16 @@
                                 </a>
                                 {{ else }}
                                 {{ .school.name }}
+                                {{ end }}
+
+                                {{ if .pubmed.url }}
+                                &nbsp&nbsp <!--these are spaces-->
+                                <a style="text-decoration:none;" href="{{ .pubmed.url }}" target="_blank">
+                                    <h6>
+                                      PubMed
+                                      <i class="fas fa-external-link-alt"></i>
+                                    </h6>
+                                </a>
                                 {{ end }}
 
                                 {{ if .featuredLink.enable }}
