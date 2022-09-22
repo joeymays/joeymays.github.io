@@ -203,7 +203,7 @@ I am currently working as a software developer at [example org.](https://example
 
     [[params.education.items]]
     title = "Proteogenomic analysis of cancer aneuploidy and normal tissues reveals divergent modes of gene regulation across cellular pathways"
-    date = "Sept 2020"
+    date = "Sept 2022"
     # GPA = ""
     content = "Pan Cheng, Xin Zhao, ... **<u>Joseph C. Mays</u>**, ... Teresa Davoli"
 
@@ -215,7 +215,7 @@ I am currently working as a software developer at [example org.](https://example
       enable = false
       name = ""
       url = "https://example.com"
-    
+
     [[params.education.items]]
     title = "Characterization of the development of the mouse cochlear epithelium at the single cell level"
     date = "Dec 2020"
