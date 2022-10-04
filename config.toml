@@ -187,6 +187,24 @@ I am currently working as a software developer at [example org.](https://example
   enable = true
 
     [[params.education.items]]
+    title = "KaryoCreate: a new CRISPR-based technology to generate chromosome-specific aneuploidy by targeting human centromeres"
+    date = "Oct 2022"
+    # GPA = ""
+    content = "Nazario Bosco, Aleah Goldberg, Adam F Johnson, Xin Zhao, **<u>Joseph C. Mays</u>**, ... Teresa Davoli"
+
+      [params.education.items.school]
+      name = "bioRxiv (preprint)"
+      url = "https://doi.org/10.1101/2022.09.27.509580"
+
+      #[params.education.items.pubmed]
+      #url = ""
+
+      [params.education.items.featuredLink]
+      enable = false
+      name = ""
+      url = "https://example.com"
+
+    [[params.education.items]]
     title = "Single-cell RNA sequencing of the mammalian pineal gland identifies two pinealocyte subtypes and cell type-specific daily patterns of gene expression."
     date = "Oct 2018"
     # GPA = ""
