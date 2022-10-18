@@ -200,9 +200,9 @@ I am currently working as a software developer at [example org.](https://example
       #url = ""
 
       [params.education.items.featuredLink]
-      enable = false
-      name = ""
-      url = "https://example.com"
+      enable = true
+      name = "GitHub Codebook"
+      url = "https://github.com/davolilab/karyocreate"
 
     [[params.education.items]]
     title = "Single-cell RNA sequencing of the mammalian pineal gland identifies two pinealocyte subtypes and cell type-specific daily patterns of gene expression."
