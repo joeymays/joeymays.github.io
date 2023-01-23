@@ -231,7 +231,7 @@ I am currently working as a software developer at [example org.](https://example
       [params.education.items.school]
       name = "eLife"
       url = "https://doi.org/10.7554/eLife.75227"
-      
+
       [params.education.items.pubmed]
       url = "https://pubmed.ncbi.nlm.nih.gov/36129397/"
 
@@ -322,6 +322,34 @@ I am currently working as a software developer at [example org.](https://example
 
   [params.projects]
   enable = true
+
+    [[params.projects.items]]
+    title = "CNWeaveR"
+    content = "R package for genome wide DNA Copy Number Variant analysis with custom targeted sequencing panels."
+    image = "assets/bar-blue.png"
+
+      [params.projects.items.featured]
+      name = "View Package Site"
+      link = ""
+
+      [[params.projects.items.links]]
+      # icon = "fab fa-github"
+      name = "GitHub"
+      url = "https://github.com/joeymays/CNweaveR"
+
+    [[params.projects.items]]
+    title = "KaryoCreate"
+    content = "A new CRISPR-based technology to generate chromosome-specific aneuploidy by targeting human centromeres."
+    image = "assets/bar-red.png"
+
+      [params.projects.items.featured]
+      name = "View Preprint"
+      link = "https://www.biorxiv.org/content/10.1101/2022.09.27.509580v1"
+
+      [[params.projects.items.links]]
+      #icon = "fab fa-github"
+      name = "GitHub"
+      url = "https://github.com/davolilab/karyocreate"
 
     [[params.projects.items]]
     title = "GetChromosomes"
