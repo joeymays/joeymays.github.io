@@ -330,7 +330,7 @@ I am currently working as a software developer at [example org.](https://example
 
       [params.projects.items.featured]
       name = "View Package Site"
-      link = ""
+      link = "https://joeymays.xyz/CNweaveR/"
 
       [[params.projects.items.links]]
       # icon = "fab fa-github"
