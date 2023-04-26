@@ -187,14 +187,14 @@ I am currently working as a software developer at [example org.](https://example
   enable = true
 
     [[params.education.items]]
-    title = "KaryoCreate: a new CRISPR-based technology to generate chromosome-specific aneuploidy by targeting human centromeres"
-    date = "Oct 2022"
+    title = "KaryoCreate: A CRISPR-based technology to study chromosome-specific aneuploidy by targeting human centromeres"
+    date = "April 2023"
     # GPA = ""
-    content = "Nazario Bosco, Aleah Goldberg, Adam F Johnson, Xin Zhao, **<u>Joseph C. Mays</u>**, ... Teresa Davoli"
+    content = "Nazario Bosco*, Aleah Goldberg*, Xin Zhao*, **<u>Joseph C. Mays&#42;</u>**, Pan Cheng*, Adam F Johnson*, ... Teresa Davoli <br> <i>&#42;equal contribution</i>"
 
       [params.education.items.school]
-      name = "bioRxiv (preprint)"
-      url = "https://doi.org/10.1101/2022.09.27.509580"
+      name = "Cell"
+      url = "https://doi.org/10.1016/j.cell.2023.03.029"
 
       #[params.education.items.pubmed]
       #url = ""
@@ -329,7 +329,7 @@ I am currently working as a software developer at [example org.](https://example
     image = "assets/bar-blue.png"
 
       [params.projects.items.featured]
-      name = "View Package Site"
+      name = "Package Site"
       link = "https://joeymays.xyz/CNweaveR/"
 
       [[params.projects.items.links]]
@@ -343,8 +343,8 @@ I am currently working as a software developer at [example org.](https://example
     image = "assets/bar-red.png"
 
       [params.projects.items.featured]
-      name = "View Preprint"
-      link = "https://www.biorxiv.org/content/10.1101/2022.09.27.509580v1"
+      name = "View Publication"
+      link = "https://doi.org/10.1016/j.cell.2023.03.029"
 
       [[params.projects.items.links]]
       #icon = "fab fa-github"
