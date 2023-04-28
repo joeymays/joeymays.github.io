@@ -196,8 +196,8 @@ I am currently working as a software developer at [example org.](https://example
       name = "Cell"
       url = "https://doi.org/10.1016/j.cell.2023.03.029"
 
-      #[params.education.items.pubmed]
-      #url = ""
+      [params.education.items.pubmed]
+      url = "https://pubmed.ncbi.nlm.nih.gov/37075754/"
 
       [params.education.items.featuredLink]
       enable = true
