@@ -65,7 +65,7 @@ useBootstrapCDN = false
     [params.hero.button]
     enable = true
     name = "CV"
-    url = "/Joseph_Mays_CV_Fall2022.pdf"
+    url = "/Joseph_Mays_CV_202310.pdf"
     download = false
 
 [[params.hero.socialLinks.email]]
