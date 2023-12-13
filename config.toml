@@ -58,7 +58,7 @@ useBootstrapCDN = false
   enable = true
   intro = "Hi, my name is"
   title = "Joey."
-  subtitle = "I'm a PhD candidate at the NYU School of Medicine."
+  subtitle = "I'm a graduating PhD candidate at the NYU School of Medicine."
   content = "I develop methods for detecting aneuploidy in cells and create tools to make my labmates' lives easier."
   image = "/jmheadshot.png"
 
