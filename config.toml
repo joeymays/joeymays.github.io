@@ -6,7 +6,6 @@ pluralizeListTitles = "false"
 
 Paginate = 3
 #disqusShortname = ""
-googleAnalytics = "G-WHEWNK58B8"
 
 [markup.goldmark.renderer]
 unsafe = true
